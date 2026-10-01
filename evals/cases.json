@@ -1,0 +1,12 @@
+[
+  {"applicant": "app-001", "expected_decision": "approve"},
+  {"applicant": "app-002", "expected_decision": "approve"},
+  {"applicant": "app-003", "expected_decision": "approve-with-conditions"},
+  {"applicant": "app-004", "expected_decision": "approve-with-conditions"},
+  {"applicant": "app-005", "expected_decision": "approve-with-conditions"},
+  {"applicant": "app-006", "expected_decision": "decline"},
+  {"applicant": "app-007", "expected_decision": "decline"},
+  {"applicant": "app-008", "expected_decision": "decline"},
+  {"applicant": "app-009", "expected_decision": "approve-with-conditions"},
+  {"applicant": "app-010", "expected_decision": "approve"}
+]
