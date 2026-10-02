@@ -1,4 +1,4 @@
-"""CI smoke test for the underwriting-agent API surface."""
+"""CI smoke test for the Credit Desk API surface."""
 
 from fastapi.testclient import TestClient
 

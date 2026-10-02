@@ -18,7 +18,7 @@ from underwriting_agent.data import APPLICANTS
 _API_KEY = os.environ.get("UNDERWRITING_API_KEY", "dev-key")
 
 app = FastAPI(
-    title="underwriting-agent",
+    title="credit-desk",
     version=__version__,
     description=(
         "Deterministic loan-underwriting decision support. "

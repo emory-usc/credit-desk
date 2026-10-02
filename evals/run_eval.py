@@ -1,4 +1,4 @@
-"""Standalone eval runner for underwriting-agent."""
+"""Standalone eval runner for Credit Desk."""
 
 import json
 import sys

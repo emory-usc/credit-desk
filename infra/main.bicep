@@ -17,7 +17,7 @@ param namePrefix string = 'underwriting'
 @description('API key for the /underwrite endpoint')
 param apiKey string
 
-@description('Container image to deploy (e.g. ghcr.io/<user>/underwriting-agent:latest)')
+@description('Container image to deploy (e.g. ghcr.io/<user>/credit-desk:latest)')
 param containerImage string
 
 // ---------------------------------------------------------------------------
@@ -74,7 +74,7 @@ resource containerApp 'Microsoft.App/containerApps@2023-05-01' = {
     template: {
       containers: [
         {
-          name: 'underwriting-agent'
+          name: 'credit-desk'
           image: containerImage
           resources: {
             cpu: json('0.25')

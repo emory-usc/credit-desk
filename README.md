@@ -1,6 +1,6 @@
-# Underwriting Agent
+# Credit Desk
 
-[![CI](https://github.com/emory-usc/underwriting-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/emory-usc/underwriting-agent/actions/workflows/ci.yml)
+[![CI](https://github.com/emory-usc/credit-desk/actions/workflows/ci.yml/badge.svg)](https://github.com/emory-usc/credit-desk/actions/workflows/ci.yml)
 
 A deterministic, multi-role loan-underwriting pipeline with a FastAPI delivery
 surface. It demonstrates a pattern that matters for governed AI systems:

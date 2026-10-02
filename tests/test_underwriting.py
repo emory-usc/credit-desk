@@ -1,4 +1,4 @@
-"""Tests for underwriting-agent."""
+"""Tests for Credit Desk."""
 
 from underwriting_agent import agents, rules
 from underwriting_agent.data import APPLICANTS
